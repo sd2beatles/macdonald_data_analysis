@@ -24,7 +24,7 @@ def get_details(soup,results):
 
 
 def getRawdata(url):
-    driver=webdriver.Chrome(r'C:\Users\user\Downloads\chromedriver_win32\chromedriver.exe')
+    driver=webdriver.Chrome(r'path\chromedriver.exe')
     driver.get(url)
     
     #time.sleep(5)
